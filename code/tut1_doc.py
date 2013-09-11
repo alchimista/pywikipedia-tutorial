@@ -6,12 +6,6 @@
 #         
 #        Distributed under the terms of the GNU GPL license.
 
-import sys, os
-
-try:
-	sys.path.append(os.environ['HOME'] + '/wp/bots/pywikipedia')
-except:
-	pass
 
 ''' 
  Primeiro importamos o módulo wikipedia, o qual nos trará as soluções mais básicas,
